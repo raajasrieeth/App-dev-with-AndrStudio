@@ -2,5 +2,7 @@
 
 Using Android Studio for App development.
 
-The Java language is used.
+Using Java.
 
+Docs for Android Studio:
+https://developer.android.com/studio/intro
