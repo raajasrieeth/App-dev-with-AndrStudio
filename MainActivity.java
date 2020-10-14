@@ -10,10 +10,11 @@ import android.widget.EditText;
 import android.widget.Toast;    // To Provide output
 
 public class MainActivity extends AppCompatActivity {
-
+// Following CodeWithHarry's Android Development in One Video.
+    //This App combines a gui similar to a login App, but mainly is used to convert a number entered to US Dollars.
     public void clicking(View view){
-//        Log.i("btnLogin","btnSome: This Button has a Message! ");
-        EditText rupeeamt = (EditText) findViewById(R.id.amtInr);
+//        Log.i("btnLogin","btnSome: This Button has a Message! "); //The Button Displays a message
+        EditText rupeeamt = (EditText) findViewById(R.id.amtInr);   // The Main Conversion job
         String rupees = rupeeamt.getText().toString();  //Convert the received input to String
         Double finalRupees = Double.parseDouble(rupees);    // Convert the String to Double to apply math Operations
 
